@@ -1,0 +1,11 @@
+.input-field {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.message-input {
+    width: 100%;
+    height: 15vh;
+    border: none;
+    border-radius: .5rem;
+}

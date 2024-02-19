@@ -1,0 +1,79 @@
+.user-header {
+    width: 30vw;
+    min-height: 100vh;
+    position: relative;
+}
+.functions {
+    width: 90%;
+    position: sticky;
+    top: 0;
+    background: #23272f;
+    min-height: 20vh;
+    z-index: 20;
+}
+.user-icon {
+    position: absolute;
+    z-index: 10;
+    top: 15px;
+    left: 20px;
+    color: white;
+}
+.user-search {
+    position: absolute;
+    width: 90%;
+    height: 2rem;
+    top: 7.5px;
+    left: 10px;
+    padding: 5px 30px;
+    background: #23272f;
+    color: white;
+    border: rgb(60, 60, 60) solid 1px;
+    border-radius: .5rem;
+}
+.filter {
+    position: absolute;
+    width: 90%;
+    top: 3.5rem;
+    left: 10px;
+    border-radius: .5rem;
+    background-color: #777b83;
+}
+.filter ul {
+    display: flex;
+    list-style: none;
+    border: none;
+    width: 100%;
+}
+.filter ul li {
+    width: 33%;
+    height: 2.3rem;
+    text-align: center;
+    cursor: pointer;
+}
+.filter ul li button{
+    cursor: pointer;
+    margin-top: 2.5%;
+    width: 80%;
+    border: none;
+    border-radius: .5rem;
+    height: 90%;
+    background-color: transparent;
+    transform: translateY(-5%);
+}
+.all-messages {
+    background-color: #23272f !important;
+}
+.filter ul li:hover {
+    opacity: .8;
+}
+.chat-logs {
+    /* margin-top: 20vh; */
+    width: 90%;
+    min-height: 100%;
+    overflow-y: auto;
+}
+.logs {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}

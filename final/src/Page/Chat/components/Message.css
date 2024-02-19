@@ -1,0 +1,30 @@
+.message-sent {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 60%;
+    background: black;
+    color: rgb(183, 183, 183);
+    padding: 15px 2rem;
+    border-radius: .5rem;
+}
+.sender-container {
+    width: 100%;
+    text-align: end;
+    position: relative;
+}
+.sender {
+    text-align: end;
+    position: absolute;
+    right: 2rem;
+    top: 5px;
+    background: blue;
+}
+.receiver-container {
+    display: flex;
+    width: 100%;
+}
+.message-avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+}

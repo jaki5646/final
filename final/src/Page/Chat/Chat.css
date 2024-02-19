@@ -1,0 +1,18 @@
+.chat {
+    display: block;
+    min-width: 70vw;
+    background-color: #17181b;
+    position: relative;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 70%;
+    overflow: auto;
+}
+.messages {
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: auto;
+}
+.text-message {
+    margin-bottom: 200px;
+}

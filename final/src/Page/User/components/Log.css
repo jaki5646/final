@@ -1,0 +1,36 @@
+.log {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    background: gray;
+    width: 100%;
+    border-radius: .5rem;
+    margin: auto;
+    color: white;
+    margin-bottom: 1rem;
+}
+.log:hover {
+    opacity: .8;
+}
+.avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: .5rem;
+}
+.name-and-message {
+    display: block;
+    margin: .5rem;
+}
+.name {
+    font-size: 1.5rem;
+}
+.message {
+    font-size: .8rem;
+    opacity: .8;
+}
+.timer {
+    position: absolute;
+    right: 25px;
+    top:  10px;
+}

@@ -1,0 +1,9 @@
+.user {
+    display: block;
+    min-width: 30vw;
+    background-color: #23272f;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
