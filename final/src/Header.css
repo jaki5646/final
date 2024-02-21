@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    text-decoration: none;
+}
+.logo {
+    font-size: 1.5rem;
+    color: white;
+}
+.nav {
+    margin-left: 2rem;  
+    color: gray;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.left-logo {
+    color: rgb(189, 189, 189);
+}
+a {
+    text-decoration: none;
+}

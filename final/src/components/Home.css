@@ -1,0 +1,35 @@
+.content-container {
+    padding: 1rem 2.5rem;
+    margin-top: 1rem;
+    overflow-y: auto;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding-bottom: 3rem;
+}
+.explore {
+    margin-bottom: .5rem;
+}
+.waygwt {
+    color: rgb(189, 189, 189);
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    margin: 50px 0;
+}
+.carousel-img {
+    display: block;
+    border-radius: .5rem;
+    width: 100%;
+    opacity: .6;
+}
+.carousel-floating-text {
+    width: 50%;
+    position: absolute;
+    top: 375px;
+    font-size: .8rem;
+    left: 60px;
+}
+.carousel-movie-name {
+    margin-bottom: 2rem;
+}
