@@ -1,10 +1,19 @@
-* {
-    margin: 0; 
+*{
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
 }
-::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+::-webkit-scrollbar {
+    display: none;
+}
+.notfound {
+    text-align: center;
+}
+input {
+    position: absolute;
+    right: 150px;
+    height: 2rem;
+    background-color: rgb(4, 4, 27);
+    border: solid 3px rgb(29, 29, 29);
+    border-radius: 1rem;
 }

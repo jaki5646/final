@@ -1,0 +1,17 @@
+.anime-detail {
+    color: white;
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+.anime-detail img {
+    display: block;
+    max-width: 22rem;
+    object-fit: cover;
+}
+.anime-detail-text {
+    display: block;
+}
+.anime-detail-text p {
+    margin: 20px;
+}
