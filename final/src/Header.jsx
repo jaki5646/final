@@ -17,9 +17,7 @@ const Header = () => {
             <li><NavLink className='left-logo' to={'/anime'}>List Anime</NavLink></li>
         </ul>
         <div className="search-bar">
-            {/* <NavLink>
-                <input to={''} type="text"  placeholder='Search anime or movie'/>
-            </NavLink> */}
+            <input type="text" placeholder='type'/>
         </div>
     </div>
   )
